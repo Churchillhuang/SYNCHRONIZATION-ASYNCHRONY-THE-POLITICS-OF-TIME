@@ -1,0 +1,4 @@
+*.pdf
+Volume-I.md
+build/
+texput.log
