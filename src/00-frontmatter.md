@@ -1,5 +1,7 @@
 # SYNCHRONIZATION & ASYNCHRONY: THE POLITICS OF TIME
 
+**Churchill Húnn**
+
 ---
 
 **Volume I: Meta-Conservatism: A Temporal Framework**

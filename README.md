@@ -19,9 +19,7 @@ The framework explains:
 
 ## Open Source Notice
 
-This book sold zero copies. The market rewards political categories that flatter existing prejudices, not ones that cut through them. Rather than let the framework gather dust, it's released here for anyone who finds it useful.
-
-This is the only version of the text. There is no earlier edition, no revised edition, no commercially published version behind a paywall. The work is what it is, offered openly for anyone to read, use, and judge on its merits.
+Volume I of this work spent six months on Amazon Kindle Unlimited and sold zero copies. Volume II was completed shortly after. The market rewards political categories that flatter existing prejudices, not ones that cut through them. Rather than let the framework gather dust, it's released here for anyone who finds it useful.
 
 This work is licensed under **CC BY-NC-ND 4.0** — see the `LICENSE` file for the full legal text. In short: you may share it freely with attribution, but not for commercial purposes, and not in modified form. **Print rights are reserved by the author** — this license grants digital access, not the right to produce and sell physical copies.
 
@@ -71,11 +69,11 @@ cat src/00-frontmatter.md src/preface-v1.md \
 For PDF output, use pandoc:
 
 ```bash
-pandoc COMPLETE_BOOK.md -o Time_and_Politics.pdf \
+pandoc COMPLETE_BOOK.md -o Synchronization_Asynchrony.pdf \
   --pdf-engine=xelatex \
   --toc \
   --metadata title="Synchronization & Asynchrony" \
-  --metadata author="[Author Name]"
+  --metadata author="Churchill Húnn"
 ```
 
 
