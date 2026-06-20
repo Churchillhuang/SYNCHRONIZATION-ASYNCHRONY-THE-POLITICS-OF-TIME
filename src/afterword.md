@@ -38,9 +38,3 @@ Political understanding matters. Confusion serves no one. Clarity requires cutti
 
 The battlefield extends beyond these pages. Navigate it well.
 
----
-
-
----
-
-

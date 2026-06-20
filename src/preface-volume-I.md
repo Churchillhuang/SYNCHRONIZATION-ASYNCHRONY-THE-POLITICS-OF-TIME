@@ -118,11 +118,6 @@ The writing aims for clarity over disciplinary jargon. Complex ideas deserve car
 
 ---
 
-## Acknowledgments {-}
-
-
----
-
 ## Structure at a Glance {-}
 
 **Part I: The Classification Problem**
@@ -147,9 +142,4 @@ This volume asks you to set aside familiar political categories temporarily—no
 The framework established here is purely analytical. It derives complete political logics from opposed temporal premises without judging which logic is preferable. That analytical foundation can be evaluated on its own terms.
 
 Whether that foundation proves solid enough to support subsequent applications and evaluations, you'll begin to judge through these five chapters.
-
----
-
-
----
 
