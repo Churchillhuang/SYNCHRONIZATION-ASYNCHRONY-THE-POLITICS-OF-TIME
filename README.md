@@ -27,7 +27,11 @@ If you find the framework valuable and would like to support the author's work, 
 
 ## Localization
 
-Translations into other languages are welcome. If you'd like to contribute a translation, please open an issue or pull request. The LICENSE file includes an additional permission specifically allowing non-commercial community translations. Translators will be formally credited both in the work and in this repository. Commercial translation rights remain reserved by the author.
+Translations into other languages are welcome — please use the **Translation** issue template. The LICENSE file includes an additional permission specifically allowing non-commercial community translations. Translators will be formally credited both in the work and in this repository. Commercial translation rights remain reserved by the author.
+
+## Contributing
+
+Found an error or a typo? Open an **Errata** issue. For framework discussion, use the **Discussion** template. Pull requests for translation are welcome; for text corrections, please open an issue first.
 
 ## Structure
 
