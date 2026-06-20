@@ -34,7 +34,7 @@ Translations into other languages are welcome. If you'd like to contribute a tra
 ### Volume I: Meta-Conservatism: A Temporal Framework
 | File | Chapter | Words |
 |------|---------|-------|
-| `src/preface-v1.md` | Preface to Volume I | ~1,350 |
+| `src/preface-volume-I.md` | Preface to Volume I | ~1,350 |
 | `src/ch01.md` | 1: When Traditional Categories Fail | ~3,900 |
 | `src/ch02.md` | 2: Time as Criterion | ~6,500 |
 | `src/ch03.md` | 3: The Blueprint Worldview | ~12,800 |
@@ -44,7 +44,7 @@ Translations into other languages are welcome. If you'd like to contribute a tra
 ### Volume II: Culture War: From Words to Worldviews
 | File | Chapter | Words |
 |------|---------|-------|
-| `src/preface-v2.md` | Preface to Volume II | ~1,350 |
+| `src/preface-volume-II.md` | Preface to Volume II | ~1,350 |
 | `src/ch06.md` | 6: Institutional Battlegrounds | ~7,050 |
 | `src/ch07.md` | 7: Cultural Fronts | — |
 | `src/ch08.md` | 8: Mapping the Political Spectrum | — |
@@ -60,9 +60,9 @@ All chapters are in Markdown. The complete book is `COMPLETE_BOOK_Chapters_1-11.
 To rebuild the complete book from sources:
 
 ```bash
-cat src/00-frontmatter.md src/preface-v1.md \
+cat src/00-frontmatter.md src/preface-volume-I.md \
     src/ch01.md src/ch02.md src/ch03.md src/ch04.md src/ch05.md \
-    src/preface-v2.md src/ch06.md src/ch07.md src/ch08.md src/ch09.md \
+    src/preface-volume-II.md src/ch06.md src/ch07.md src/ch08.md src/ch09.md \
     src/ch10.md src/ch11.md src/afterword.md > COMPLETE_BOOK.md
 ```
 
