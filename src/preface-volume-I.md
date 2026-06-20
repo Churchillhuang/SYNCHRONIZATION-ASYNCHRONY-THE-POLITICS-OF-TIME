@@ -1,12 +1,12 @@
-# VOLUME I: META-CONSERVATISM: A TEMPORAL FRAMEWORK
+# VOLUME I: META-CONSERVATISM: A TEMPORAL FRAMEWORK {-}
 
 ---
 
-# Preface
+# Preface {-}
 
 ---
 
-## Why This Book Exists
+## Why This Book Exists {-}
 
 This book began with confusion.
 
@@ -24,7 +24,7 @@ This book attempts an answer.
 
 ---
 
-## What This Book Offers
+## What This Book Offers {-}
 
 **An analytical framework**, not a political manifesto.
 
@@ -42,7 +42,7 @@ These chapters derive ideal-typical logics in their pure forms, showing internal
 
 ---
 
-## Two Separate Claims
+## Two Separate Claims {-}
 
 This volume makes an analytical claim. Future volumes will address normative evaluation.
 
@@ -56,7 +56,7 @@ The analytical tools are offered for independent judgment first. Applications an
 
 ---
 
-## Why State This Separation?
+## Why State This Separation? {-}
 
 Because eventual normative evaluation shouldn't contaminate analytical development.
 
@@ -68,7 +68,7 @@ Stating this now serves intellectual honesty. You can judge whether this volume'
 
 ---
 
-## What This Volume Cannot Do
+## What This Volume Cannot Do {-}
 
 This framework is not a complete theory of politics. Even as analytical foundation, it has limits.
 
@@ -84,7 +84,7 @@ Use the framework where it illuminates. Recognize its limits. Combine with other
 
 ---
 
-## On Terminology and Translation
+## On Terminology and Translation {-}
 
 This book introduces specific analytical terms for the two temporal logics it examines. I've chosen these terms carefully for their analytical precision, but readers may initially find them less familiar than conventional political language.
 
@@ -94,7 +94,7 @@ These terms appear throughout the book once the framework is established. Part I
 
 ---
 
-## How to Read This Volume
+## How to Read This Volume {-}
 
 **If you're interested in political theory**: Read straight through. The argument builds cumulatively from establishing the analytical problem (Part I) through developing complete logics from opposed temporal premises (Part II).
 
@@ -108,7 +108,7 @@ These terms appear throughout the book once the framework is established. Part I
 
 ---
 
-## A Note on Sources and Style
+## A Note on Sources and Style {-}
 
 This book engages political theory, intellectual history, and comparative politics without adhering strictly to conventions of any single discipline. The argument draws on philosophical texts, historical cases, and contemporary examples as needed to develop the framework.
 
@@ -118,12 +118,12 @@ The writing aims for clarity over disciplinary jargon. Complex ideas deserve car
 
 ---
 
-## Acknowledgments
+## Acknowledgments {-}
 
 
 ---
 
-## Structure at a Glance
+## Structure at a Glance {-}
 
 **Part I: The Classification Problem**
 - Chapter 1: When Traditional Categories Fail
@@ -152,3 +152,4 @@ Whether that foundation proves solid enough to support subsequent applications a
 
 
 ---
+

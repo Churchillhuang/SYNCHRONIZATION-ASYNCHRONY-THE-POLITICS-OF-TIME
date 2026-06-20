@@ -1,4 +1,4 @@
-# Afterword
+# Afterword {-}
 
 ---
 
@@ -42,3 +42,5 @@ The battlefield extends beyond these pages. Navigate it well.
 
 
 ---
+
+
