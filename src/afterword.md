@@ -30,7 +30,7 @@ But clarity matters. Societies that cannot identify temporal structures struggle
 
 ---
 
-The framework is offered. The analysis complete. The war continues.
+The framework is offered. The analysis is complete. The war continues.
 
 Your task now: maintain analytical clarity despite linguistic manipulation. Resist classification weaponization. Recognize temporal patterns beneath conventional labels. Distinguish structural analysis from political allegiance. Use the framework honestly—for understanding, not partisan advantage.
 
