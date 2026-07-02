@@ -1,8 +1,8 @@
 # Synchronization & Asynchrony: The Politics of Time
 
-**Volume I: Meta-Conservatism: A Temporal Framework**
+**Volume I: Meta-Conservatism — A Temporal Framework**
 
-**Volume II: Culture War: From Words to Worldviews**
+**Volume II: Culture War — From Words to Worldviews**
 
 ---
 
@@ -16,68 +16,82 @@ The framework explains:
 - **Why opposite ideologies converge** — Soviet communism and Nazi fascism produced nearly identical structures despite opposite contents
 - **Why certain positions cluster** — planning, teleological ethics, and centralization derive from shared temporal premises
 - **What unifies diverse conservatisms** — meta-conservative analysis reveals structural commonalities beneath surface contradictions
-
-## Open Source Notice
-
-Volume I of this work spent six months on Amazon Kindle Unlimited and sold zero copies. Volume II was completed shortly after. The market rewards political categories that flatter existing prejudices, not ones that cut through them. Rather than let the framework gather dust, it's released here for anyone who finds it useful.
-
-This work is licensed under **CC BY-NC-ND 4.0** — see the `LICENSE` file for the full legal text. In short: you may share it freely with attribution, but not for commercial purposes, and not in modified form. **Print rights are reserved by the author** — this license grants digital access, not the right to produce and sell physical copies.
-
-If you find the framework valuable and would like to support the author's work, the most helpful thing you can do is **leave an honest review on Amazon** — whether positive or critical, your genuine response helps other readers decide whether this book is for them. I am sincerely grateful to anyone who takes the time, and the help means more than I can say.
-
-## Localization
-
-Translations into other languages are welcome — please use the **Translation** issue template. The LICENSE file includes an additional permission specifically allowing non-commercial community translations. Translators will be formally credited both in the work and in this repository. Commercial translation rights remain reserved by the author.
-
-## Contributing
-
-Found an error or a typo? Open an **Errata** issue. For framework discussion, use the **Discussion** template. Pull requests for translation are welcome; for text corrections, please open an issue first.
-
-## Structure
-
-### Volume I: Meta-Conservatism: A Temporal Framework
-| File | Chapter | Words |
-|------|---------|-------|
-| `src/preface-volume-I.md` | Preface to Volume I | ~1,350 |
-| `src/ch01.md` | 1: When Traditional Categories Fail | ~3,900 |
-| `src/ch02.md` | 2: Time as Criterion | ~6,500 |
-| `src/ch03.md` | 3: The Blueprint Worldview | ~12,800 |
-| `src/ch04.md` | 4: The Principle Worldview | ~10,600 |
-| `src/ch05.md` | 5: Meta-Conservatism | ~7,200 |
-
-### Volume II: Culture War: From Words to Worldviews
-| File | Chapter | Words |
-|------|---------|-------|
-| `src/preface-volume-II.md` | Preface to Volume II | ~1,350 |
-| `src/ch06.md` | 6: Institutional Battlegrounds | ~7,050 |
-| `src/ch07.md` | 7: Cultural Fronts | — |
-| `src/ch08.md` | 8: Mapping the Political Spectrum | — |
-| `src/ch09.md` | 9: The Language War | — |
-| `src/ch10.md` | 10: Conceptual Battlegrounds | — |
-| `src/ch11.md` | 11: Methodological Reflection | ~6,500 |
-| `src/afterword.md` | Afterword | ~580 |
+- **How language war operates** — concepts get weaponized, classifications manipulated, to protect some logics while stigmatizing others
 
 ## How to Read
 
-All chapters are in Markdown. The complete book is `COMPLETE_BOOK_Chapters_1-11.md`; individual chapters are in `src/`.
+If you want the framework's complete philosophical derivation, start with **Volume I** — it builds from ontology through epistemology and ethics to politics.
 
-To rebuild the complete book from sources:
+If you want to see the framework applied to recognizable political phenomena (Nazi classification, DEI, MAGA, cancel culture, unity weaponization), start with **Volume II** — its preface contains a "Decoder Ring" that gives you the essential framework in two pages.
 
+The two volumes are designed to be complementary: Volume I is the academic foundation; Volume II is the battlefield.
+
+## Structure
+
+### Volume I: Meta-Conservatism — A Temporal Framework
+
+| File | Chapter |
+|------|---------|
+| `src/preface-volume-I.md` | Preface to Volume I |
+| `src/ch01.md` | 1: When Traditional Categories Fail |
+| `src/ch02.md` | 2: Time as Criterion |
+| `src/ch03.md` | 3: The Blueprint Worldview |
+| `src/ch04.md` | 4: The Principle Worldview |
+| `src/ch05.md` | 5: Meta-Conservatism |
+
+### Volume II: Culture War — From Words to Worldviews
+
+| File | Chapter |
+|------|---------|
+| `src/preface-volume-II.md` | Preface to Volume II (includes Decoder Ring) |
+| `src/ch06.md` | 6: Institutional Battlegrounds |
+| `src/ch07.md` | 7: Cultural Fronts |
+| `src/ch08.md` | 8: Mapping the Political Spectrum |
+| `src/ch09.md` | 9: The Language War |
+| `src/ch10.md` | 10: Conceptual Battlegrounds |
+| `src/ch11.md` | 11: Methodological Reflection |
+| `src/afterword.md` | Afterword |
+
+## Build
+
+Requires pandoc, xelatex, and mermaid-cli (for diagram rendering in Volume I).
+
+**Volume I PDF:**
 ```bash
-cat src/00-frontmatter.md src/preface-volume-I.md \
-    src/ch01.md src/ch02.md src/ch03.md src/ch04.md src/ch05.md \
-    src/preface-volume-II.md src/ch06.md src/ch07.md src/ch08.md src/ch09.md \
-    src/ch10.md src/ch11.md src/afterword.md > COMPLETE_BOOK.md
-```
-
-For PDF output, use pandoc:
-
-```bash
-pandoc COMPLETE_BOOK.md -o Synchronization_Asynchrony.pdf \
+pandoc src/preface-volume-I.md src/ch01.md src/ch02.md \
+  src/ch03.md src/ch04.md src/ch05.md \
+  -o Volume-I.pdf \
   --pdf-engine=xelatex \
-  --toc \
-  --metadata title="Synchronization & Asynchrony" \
-  --metadata author="Churchill Húnn"
+  --template=build/volume-I-template.tex \
+  --lua-filter=build/mermaid-filter.lua \
+  --top-level-division=chapter \
+  -V mainfont="EB Garamond"
 ```
 
+**Volume II PDF:**
+```bash
+pandoc src/preface-volume-II.md src/ch06.md src/ch07.md \
+  src/ch08.md src/ch09.md src/ch10.md src/ch11.md src/afterword.md \
+  -o Volume-II.pdf \
+  --pdf-engine=xelatex \
+  --template=build/volume-II-template.tex \
+  --lua-filter=build/mermaid-filter.lua \
+  --top-level-division=chapter \
+  -V mainfont="EB Garamond"
+```
 
+**EPUB (either volume):** Same command, but omit `--pdf-engine`, `--template`, `--lua-filter`, `-V`, and add `-o Volume-I.epub` / `-o Volume-II.epub` with appropriate metadata.
+
+## License
+
+CC BY-NC-ND 4.0 + Translation Permission — see `LICENSE`.
+
+In short: share freely with attribution for non-commercial purposes, no derivatives. Translation into any language is explicitly permitted for non-commercial community efforts. **Print rights are reserved by the author.**
+
+## Contributing
+
+- **Errata**: Open an issue for typos or factual corrections.
+- **Translation**: Open a Translation issue. See LICENSE for terms.
+- **Discussion**: Use the Discussions tab for framework questions.
+
+Pull requests for translation are welcome. For text corrections, open an issue first.

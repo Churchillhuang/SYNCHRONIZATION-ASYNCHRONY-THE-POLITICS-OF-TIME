@@ -1,10 +1,8 @@
 # VOLUME I: META-CONSERVATISM: A TEMPORAL FRAMEWORK {-}
 
----
 
 # Preface {-}
 
----
 
 ## Why This Book Exists {-}
 
@@ -22,7 +20,6 @@ The question became: if traditional political classification systematically crea
 
 This book attempts an answer.
 
----
 
 ## What This Book Offers {-}
 
@@ -40,7 +37,6 @@ These chapters derive ideal-typical logics in their pure forms, showing internal
 
 **Subsequent volumes** will apply this framework to institutional manifestations, historical cases, and contemporary political questions. But the analytical foundation established here—the temporal criterion and the complete logics it generates—can be evaluated on its own terms before considering applications.
 
----
 
 ## Two Separate Claims {-}
 
@@ -54,7 +50,6 @@ This volume develops the analytical framework without normative advocacy. Part I
 
 The analytical tools are offered for independent judgment first. Applications and evaluations come in subsequent volumes.
 
----
 
 ## Why State This Separation? {-}
 
@@ -66,7 +61,6 @@ But I should be transparent: I'm not writing this framework as a purely neutral 
 
 Stating this now serves intellectual honesty. You can judge whether this volume's analytical development is fair despite my eventual evaluative stance. The logical derivations can be examined independently from the normative judgments that will follow.
 
----
 
 ## What This Volume Cannot Do {-}
 
@@ -82,7 +76,6 @@ This framework is not a complete theory of politics. Even as analytical foundati
 
 Use the framework where it illuminates. Recognize its limits. Combine with other theories. Judge it on explanatory power at the level of logical structure, not on comprehensiveness it doesn't claim.
 
----
 
 ## On Terminology and Translation {-}
 
@@ -92,7 +85,6 @@ The rationale for new terminology will become clear through the argument itself.
 
 These terms appear throughout the book once the framework is established. Part I introduces them systematically. Parts II-III develop their full meaning through logical derivation. Part IV connects them back to conventional political language.
 
----
 
 ## How to Read This Volume {-}
 
@@ -106,7 +98,6 @@ These terms appear throughout the book once the framework is established. Part I
 
 **If you're checking specific claims**: Each chapter includes cross-references. The framework builds systematically, but individual sections address discrete questions about how temporal assumptions generate political structures.
 
----
 
 ## A Note on Sources and Style {-}
 
@@ -116,24 +107,23 @@ Citations appear where specific claims require documentation or where I'm drawin
 
 The writing aims for clarity over disciplinary jargon. Complex ideas deserve careful expression, but unnecessarily obscure language serves no one. Where technical terms are required, I define them explicitly.
 
----
 
 ## Structure at a Glance {-}
 
 **Part I: The Classification Problem**
+
 - Chapter 1: When Traditional Categories Fail
 - Chapter 2: Time as Criterion
 
 **Part II: Complete Political Logics**
+
 - Chapter 3: Logic of Historical Endpoints
 - Chapter 4: Logic of Perpetual Evolution
 - Chapter 5: Meta-Conservatism
 
----
 
 *Future volumes will apply this framework to institutional manifestations, historical cases, and contemporary political questions.*
 
----
 
 **A final word before beginning:**
 

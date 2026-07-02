@@ -1,4 +1,24 @@
+# Build artifacts
 *.pdf
-Volume-I.md
+*.epub
+*.log
 build/
-texput.log
+
+# Compiled manuscripts
+Volume-I.md
+Volume-II.md
+COMPLETE_BOOK_Chapters_1-11.md
+Volume_II_COMPLETE_MANUSCRIPT.md
+
+# Published EPUB (KU exclusive until expiry)
+DIGITAL_BOOK_BLOCK.epub
+
+# Node (mermaid rendering)
+node_modules/
+package-lock.json
+package.json
+
+# Backup / leftover files
+src/backup-paragraphs/
+src/*.bak
+src/*.bullet-backup

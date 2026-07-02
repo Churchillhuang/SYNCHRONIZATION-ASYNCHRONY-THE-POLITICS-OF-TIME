@@ -1,6 +1,5 @@
 # Afterword {-}
 
----
 
 You've now seen the war's fronts.
 
@@ -14,7 +13,6 @@ But much remains beyond these volumes' scope. Deep historical analysis examining
 
 These questions await. Whether addressed in future work or by other scholars, they extend the framework's implications beyond current scope. The analytical foundation is established. Its applications multiply indefinitely.
 
----
 
 Politics admits no endgame.
 
@@ -28,7 +26,6 @@ Recognition doesn't guarantee victory. Blueprint logic possesses inherent advant
 
 But clarity matters. Societies that cannot identify temporal structures struggle to recognize which transformative projects risk catastrophe, which defenses represent legitimate resistance, which reforms threaten fundamental liberties. Confusion enables Blueprint advance disguised as progress. Recognition enables informed judgment about what's actually at stake.
 
----
 
 The framework is offered. The analysis is complete. The war continues.
 
