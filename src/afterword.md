@@ -35,3 +35,14 @@ Political understanding matters. Confusion serves no one. Clarity requires cutti
 
 The battlefield extends beyond these pages. Navigate it well.
 
+
+# About This Book {-}
+
+This framework is the culmination of long reading, reflection, and derivation, yet it is not something I constructed from nothing. It was buried; I am merely a revealer.
+
+I believe its source transcends me. Precisely because I know it is not my invention, I have approached every derivation, every historical judgment, and every single word with near-reverent caution.
+
+If this framework bears flaws, the responsibility is entirely mine. If it offers any insight, its integrity stems from a source beyond myself.
+
+I offer it here as a tool for understanding, not as a doctrine to be followed.
+
