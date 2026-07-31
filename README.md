@@ -80,7 +80,7 @@ pandoc src/preface-volume-II.md src/ch06.md src/ch07.md \
   -V mainfont="EB Garamond"
 ```
 
-**EPUB (either volume):** Same command, but omit `--pdf-engine`, `--template`, `--lua-filter`, `-V`, and add `-o Volume-I.epub` / `-o Volume-II.epub` with appropriate metadata.
+**EPUB (either volume):** Same command, but omit `--pdf-engine`, `--template`, `-V`, use `--lua-filter=build/mermaid-epub-filter.lua` instead (renders diagrams to PNG), and add `-o Volume-I.epub` / `-o Volume-II.epub` with appropriate metadata.
 
 ## License
 
