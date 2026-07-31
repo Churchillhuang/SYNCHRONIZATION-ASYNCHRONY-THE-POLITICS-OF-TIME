@@ -56,6 +56,8 @@ The two volumes are designed to be complementary: Volume I is the academic found
 
 Requires pandoc, xelatex, and mermaid-cli (for diagram rendering in Volume I).
 
+Pre-rendered diagram sources and PNGs are stored statically in `diagrams/` (from the mermaid code blocks in `src/ch02.md`, `src/ch03.md`, `src/ch04.md`) for reference; builds render diagrams fresh from source.
+
 **Volume I PDF:**
 ```bash
 pandoc src/preface-volume-I.md src/ch01.md src/ch02.md \
